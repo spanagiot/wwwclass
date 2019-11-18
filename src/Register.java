@@ -48,13 +48,6 @@ public class Register extends javax.servlet.http.HttpServlet {
 
         response.sendRedirect("./register-success.jsp");
 
-
-        // Work with the data using methods like...
-        // int someInt = jsonObject.getInt("intParamName");
-        // String someString = jsonObject.getString("stringParamName");
-        // JSONObject nestedObj = jsonObject.getJSONObject("nestedObjName");
-        // JSONArray arr = jsonObject.getJSONArray("arrayParamName");
-        // etc...
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {

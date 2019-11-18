@@ -1,8 +1,3 @@
-//public interface User {
-//    String username = "";
-//    String password = "";
-//}
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
